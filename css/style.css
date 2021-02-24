@@ -1254,96 +1254,67 @@ img {
 	background-color: #620031;
 }
 /*----------------------------------------footer-styles---------------------------------------*/
-#footer {
-	margin: 0;
-	padding: 0;
-	width: auto;
+.footer-basic {
+    	padding: 40px 0;
+    	background-color: #ffffff;
+    	color: #4b4c4d;
 }
-#footer .connect {
-	background-color: #a3a3a3;
-	margin: 0;
-	min-height: 84px;
-	overflow: hidden;
-	padding: 0;
-	width: auto;
+
+.footer-basic ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 0;
+        margin-bottom: 0;
 }
-#footer .connect div {
-	margin: 0 auto;
-	max-width: 960px;
-	overflow: hidden;
-	padding: 24px 0 0;
+
+.footer-basic li {
+        padding: 0 10px;
+        display: inline-block;
 }
-#footer .connect div h1 {
-	color: #FFFFFF;
-	float: left;
-	font-family: audiowide-regular-webfont;
-	font-size: 23px;
-	font-weight: normal;
-	line-height: 23px;
-	margin: 0;
-	padding: 8px 0 0 0;
-	text-align: right;
-	text-transform: uppercase;
-	width: 600px;
+
+.footer-basic ul a {
+        color: #000000;
+        text-decoration: none;
+        opacity: 0.6;
 }
-#footer .connect div div {
-	float: left;
-	margin: 0;
-	overflow: hidden;
-	padding: 0 0 0 20px;
-	width: 300px;
+
+.footer-basic ul a:hover {
+	opacity: 1;
 }
-#footer .connect div div a {
-	background: url(../images/icons.png) no-repeat;
-	display: block;
-	float: left;
-	height: 36px;
-	margin: 0;
-	padding: 0;
-	text-indent: -99999px;
-	width: 18px;
+
+.footer-basic .social {
+    	text-align: center;
+    	padding-bottom: 25px;
 }
-#footer .connect div div a.facebook {
-	background-position: 0 0;
-	margin: 0 0 0 16px;
-	width: 18px;
+
+.footer-basic .social > a {
+    	font-size: 24px;
+    	width: 40px;
+    	height: 40px;
+    	line-height: 40px;
+    	display: inline-block;
+    	text-align: center;
+    	border-radius: 50%;
+    	border: 1px solid #ccc;
+    	margin: 0 8px;
+    	color: inherit;
+    	opacity: 0.75;
 }
-#footer .connect div div a.twitter {
-	background-position: 0 -114px;
-	margin: 0 0 0 28px;
-	width: 44px;
+
+.footer-basic .social > a:hover {
+    	opacity: 0.9;
 }
-#footer .connect div div a.facebook:hover {
-	background-position: -20px 0;
+
+.footer-basic .copyright {
+    	margin-top: 3%;
+    	text-align: center;
+    	font-size: 13px;
+    	color: #000;
+    	margin-bottom: 0;
 }
-#footer .connect div div a.twitter:hover {
-	background-position: -46px -114px;
-}
-#footer .footnote {
-	background-color: #FFFFFF;
-	margin: 0;
-	min-height: 84px;
-	overflow: hidden;
-	padding: 0;
-	width: auto;
-}
-#footer .footnote div {
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 34px 0 0;
-	width: 960px;
-}
-#footer .footnote div p {
-	color: #000000;
-	display: block;
-	font-family: Arial;
-	font-size: 12px;
-	font-weight: normal;
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
-	text-transform: uppercase;
-}
+
 #wix {
 	max-width: 728px;
 	margin: 0 auto;
